@@ -10,14 +10,9 @@ namespace TRPO_Lab3.Library
     {
         public static double Calculate( double base1, double base2, double height )
         {
-            double area = 1 / 2 * (base1 + base2) * height;
+            double area = 0.5 * (base1 + base2) * height;
             return area;
         }
 
-        public static double Calculate2()
-        {
-            double area = 0;
-            return area;
-        }
     }
 }
