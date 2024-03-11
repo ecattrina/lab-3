@@ -4,10 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-lab3.ConsoleApp", "TRPO-lab3.ConsoleApp\TRPO-lab3.ConsoleApp.csproj", "{FB41205F-AB1E-4396-B317-CEF9A4759313}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AAB32164-C250-4A53-AF10-24B9494267F5} = {AAB32164-C250-4A53-AF10-24B9494267F5}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.Library", "TRPO-Lab3.Library\TRPO-Lab3.Library.csproj", "{AAB32164-C250-4A53-AF10-24B9494267F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.Tests", "TRPO-Lab3.Tests\TRPO-Lab3.Tests.csproj", "{2294DE32-3191-48F8-83AD-3DEB178D8F16}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AAB32164-C250-4A53-AF10-24B9494267F5} = {AAB32164-C250-4A53-AF10-24B9494267F5}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

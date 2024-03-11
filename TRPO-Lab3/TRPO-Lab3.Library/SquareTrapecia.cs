@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace TRPO_Lab3.Library
 {
-    public class SquareTrapecia
+    public static class SquareTrapecia
     {
-        public double Calculate( double base1, double base2, double height )
+        public static double Calculate( double base1, double base2, double height )
         {
             double area = 1 / 2 * (base1 + base2) * height;
+            return area;
+        }
+
+        public static double Calculate2()
+        {
+            double area = 0;
             return area;
         }
     }
