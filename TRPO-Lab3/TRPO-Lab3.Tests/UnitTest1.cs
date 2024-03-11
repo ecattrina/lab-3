@@ -8,8 +8,11 @@ using NUnit.Framework;
 namespace TRPO_Lab3.Tests
 {
     public class UnitTest1
+    {
+        [SetUp]
+        public void SetUp() { }
 
-    {   [Test]
+       [Test]
         public void Test1()
         {
             const double base1 = 1;
@@ -22,7 +25,7 @@ namespace TRPO_Lab3.Tests
 
             Assert.AreEqual(expected, result);
         }
-
+        [Test]
         public void Test2()
         {
             const double base1 = 1;
