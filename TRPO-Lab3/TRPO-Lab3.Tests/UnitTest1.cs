@@ -22,5 +22,14 @@ namespace TRPO_Lab3.Tests
 
             Assert.AreEqual(expected, result);
         }
+
+        public void Test2()
+        {
+            const double base1 = 1;
+            const double base2 = 2;
+            const double height = -1;
+
+            Assert.Throws<Exception>(() => TRPO_Lab3.Library.SquareTrapecia.Calculate(base1, base2, height));
+        }
     }
 }
