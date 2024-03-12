@@ -12,7 +12,7 @@ namespace TRPO_Lab3.Library
         {
           if (height <= 0)
             {
-                throw new Exception("Высота должна быть ьольше нуля ")
+                throw new Exception("Высота должна быть ьольше нуля ");
             }
            if (base1 <= 0 )
             {
